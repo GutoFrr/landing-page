@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 const Container = styled.div`
-  padding-inline: 119px;
 
   .section-heading {
     display: flex;

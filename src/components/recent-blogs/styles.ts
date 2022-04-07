@@ -4,7 +4,7 @@ const Container = styled.div`
   height: 1185px;
 
   .recent-blogs {
-    padding: 147px 119px 150px 119px;
+    padding: 147px 0 150px 0;
 
     h1 {
       width: 435px;

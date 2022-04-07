@@ -5,7 +5,7 @@ import styled from "styled-components";
 const Container = styled.div`
   font-family: "Manrope", sans-serif;
   background-color: #FAFBFF;
-  margin-inline: -8px;
+  margin-inline: auto;
 
   * {
     padding: 0;

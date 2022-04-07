@@ -3,12 +3,12 @@
 import styled from "styled-components";
 
 const Container = styled.div`
+
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 38px;
-    padding-inline: 119px;
     height: 52px;
   }
 

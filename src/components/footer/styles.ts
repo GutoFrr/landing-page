@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 const Container = styled.div`
-  padding-inline: 119px;
   height: 325px;
 
   .footer {
@@ -149,8 +148,10 @@ const Container = styled.div`
   }
 
   hr {
-    border-top: 2px solid #e5e5ea;
+    border: 1px solid #e5e5ea;
     margin-bottom: 40px;
+    width: 1440px;
+    max-width: 1440px;
   }
 
   .copyright {

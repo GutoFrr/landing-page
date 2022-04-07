@@ -6,8 +6,6 @@ const Container = styled.div`
   background-color: #FAFBFF;
 
   .faqs-container {
-    padding-inline: 119px;
-
 
     h1 {
       width: 544px;

@@ -14,11 +14,10 @@ const Container = styled.div`
 
   .companies-brands {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     height: 32px;
     margin-top: 36px;
-    padding-inline: 87px;
   }
 `
 

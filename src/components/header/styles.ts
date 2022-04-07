@@ -4,7 +4,6 @@ import styled from "styled-components";
 
 const Container = styled.div`
   background: linear-gradient(292.12deg, #62bada -35.02%, #c9e7f2 78.96%);
-  margin: -8px 0;
   height: 934px;
 
   main {
