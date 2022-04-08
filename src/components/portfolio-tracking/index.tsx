@@ -7,9 +7,8 @@ import { BsFillCheckCircleFill } from 'react-icons/bs'
 import blueFolder from '../../assets/images/folders-images/blue-folder.png'
 import orangeFolder from '../../assets/images/folders-images/orange-folder.png'
 import yellowFolder from '../../assets/images/folders-images/yellow-folder.png'
-import testimonialQuote from '../../assets/images/insurance-cards/testimonial.png'
+import quoteIcon from '../../assets/images/insurance-cards/quote-icon.png'
 import insuranceCard from '../../assets/images/insurance-cards/recieved-cards.png'
-import testimonialQuote2 from '../../assets/images/insurance-cards/testimonial2.png'
 import totalBalance from '../../assets/images/insurance-cards/total-balance.png'
 import Layout from '../layout/styles'
 
@@ -26,11 +25,21 @@ const PortfolioTracking = () => {
             </p>
           </div>
           <div className="quote-card">
-            <Image
-              src={testimonialQuote}
-              alt="Primeira citação de Mike Taylor"
-              quality={100}
-            />
+            <div className="quote-icon">
+              <Image
+                src={quoteIcon}
+                alt="Primeira citação de Mike Taylor"
+                quality={100}
+              />
+            </div>
+            <div className="quote-text">
+              <p>
+                Wise busy past both park when an ye no. Nay likely her length
+                sooner thrown sex lively income. The expense windows adapted
+                sir. Wrong widen.
+              </p>
+              <h6>- Mike Taylor, Web Designer</h6>
+            </div>
           </div>
         </div>
         <div className="folder-cards">
@@ -44,8 +53,8 @@ const PortfolioTracking = () => {
             />
             <h2>Connect wallets & companies</h2>
             <p>
-              Indulgence way everything joy alteration boisterous the attachment.
-              Party we years to order allow asked of.
+              Indulgence way everything joy alteration boisterous the
+              attachment. Party we years to order allow asked of.
             </p>
           </div>
           <div className="folder-card-2">
@@ -58,8 +67,8 @@ const PortfolioTracking = () => {
             />
             <h2>Review transactions</h2>
             <p>
-              Indulgence way everything joy alteration boisterous the attachment.
-              Party we years to order allow asked of.
+              Indulgence way everything joy alteration boisterous the
+              attachment. Party we years to order allow asked of.
             </p>
           </div>
           <div className="folder-card-3">
@@ -72,8 +81,8 @@ const PortfolioTracking = () => {
             />
             <h2>Get income insights</h2>
             <p>
-              Indulgence way everything joy alteration boisterous the attachment.
-              Party we years to order allow asked of.
+              Indulgence way everything joy alteration boisterous the
+              attachment. Party we years to order allow asked of.
             </p>
           </div>
         </div>
@@ -89,8 +98,8 @@ const PortfolioTracking = () => {
             <h6>Why Choose Us</h6>
             <h1>Track your payments on the go with the best way possible</h1>
             <p>
-              Indulgence way everything joy alteration boisterous the attachment.
-              Party we years to order allow asked of.
+              Indulgence way everything joy alteration boisterous the
+              attachment. Party we years to order allow asked of.
             </p>
             <hr />
             <div className="checks">
@@ -116,18 +125,27 @@ const PortfolioTracking = () => {
             <h6>Why Choose Us</h6>
             <h1>Save money with proper transaction</h1>
             <p>
-              We so opinion friends me message as delight.
-              Whole front do of plate heard oh ought.
-              His defective nor convinced residence own.
+              We so opinion friends me message as delight. Whole front do of
+              plate heard oh ought. His defective nor convinced residence own.
             </p>
-            <div className="quote-insurance">
-              <Image
-                src={testimonialQuote2}
-                alt="Segunda citação de Mike Taylor"
-                quality={100}
-              />
+            <div className="quote-card">
+              <div className="quote-icon">
+                <Image
+                  src={quoteIcon}
+                  alt="Segunda citação de Mike Taylor"
+                  quality={100}
+                />
+              </div>
+              <div className="quote-text">
+                <p>
+                  Wise busy past both park when an ye no. Nay likely her length
+                  sooner thrown sex lively income. The expense windows .
+                </p>
+                <h6>- Mike Taylor, Web Designer</h6>
+              </div>
             </div>
           </div>
+
           <div>
             <Image
               src={totalBalance}

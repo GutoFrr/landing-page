@@ -2,10 +2,12 @@
 import React from 'react'
 import Container from './styles'
 import Image from 'next/image'
+import Layout from '../layout/styles'
 import { AiOutlinePlus } from 'react-icons/ai'
 
 import squaredBalloon from '../../assets/images/faqs-images/squared-balloon.png'
-import Layout from '../layout/styles'
+import blueSpiral from '../../assets/images/faqs-images/blue-spiral.png'
+import orangeSmudge from '../../assets/images/faqs-images/orange-smudge.png'
 
 const FAQs = () => {
   return (
@@ -66,6 +68,20 @@ const FAQs = () => {
             </div>
           </div>
         </Layout>
+        <div className="blue-spiral">
+          <Image
+            src={blueSpiral}
+            alt="Espiral azul canto superior esquerdo"
+            quality={100}
+          />
+        </div>
+        <div className="orange-smudge">
+          <Image
+            src={orangeSmudge}
+            alt="Mancha laranja canto superior direito"
+            quality={100}
+          />
+        </div>
       </Container>
     </>
   )

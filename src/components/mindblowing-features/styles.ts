@@ -5,7 +5,7 @@ const Container = styled.div`
   background-color: #c9e7f2;
 
   .feature-content {
-    padding: 146px 119px 97px 119px;
+    padding: 146px 0 97px 0;
   }
 
   .features-title {
@@ -104,6 +104,12 @@ const Container = styled.div`
 
   .text-cards div:first-child {
       margin-bottom: 32px;
+  }
+
+  .bleft-scribble {
+    position: absolute;
+    left: 0.000001%;
+    top: 3898px;
   }
 `
 

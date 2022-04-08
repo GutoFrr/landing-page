@@ -4,7 +4,10 @@ const Container = styled.div`
   height: 239px;
   background-color: #F5F6F8;
   padding-top: 64px;
+  padding-inline: 119px;
   margin-bottom: 72px;
+  position: relative;
+  z-index: 4;
 
   h4 {
     text-align: center;

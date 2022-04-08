@@ -2,10 +2,11 @@
 import React from 'react'
 import Container from './styles'
 import Image from 'next/image'
+import Layout from '../layout/styles'
 
 import orangeFolder from '../../assets/images/folders-images/orange-folder.png'
 import blueFolder from '../../assets/images/folders-images/blue-folder.png'
-import Layout from '../layout/styles'
+import bottomLeftScribble from '../../assets/images/mindblowing-features-images/bottom-left-scribble.png'
 
 const MindblowingFeatures = () => {
   return (
@@ -55,6 +56,14 @@ const MindblowingFeatures = () => {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="bleft-scribble">
+          <Image
+            src={bottomLeftScribble}
+            alt="Rabiscos no canto inferior esquerdo"
+            quality={100}
+          />
         </div>
       </Layout>
     </Container>

@@ -1,32 +1,29 @@
 // eslint-disable-next-line no-use-before-define
 import React from 'react'
-import Layout from '../layout/styles'
 import Container from './styles'
+import Product from './product-dropdown/index'
+import Template from './template-dropdown/index'
 
-const Header = () => {
+const Navbar = () => {
   return (
     <Container>
-      <Layout>
         <nav>
           <div>
             <h3>AR SHAKIR</h3>
           </div>
-          <div>
-            <ul>
-              <li>Product</li>
-              <li>Template</li>
+          <ul className="list">
+              <li><Product /></li>
+              <li><Template /></li>
               <li>Blog</li>
               <li>Pricing</li>
-            </ul>
-          </div>
+          </ul>
           <div className="nav-btns">
             <button className='sign-in-btn'>Sign In</button>
             <button className="start-btn">Start Free</button>
           </div>
         </nav>
-      </Layout>
     </Container>
   )
 }
 
-export default Header
+export default Navbar

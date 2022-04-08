@@ -3,7 +3,6 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-
   nav {
     display: flex;
     justify-content: space-between;
@@ -17,12 +16,19 @@ const Container = styled.div`
     font-size: 20px;
   }
 
-  li {
+  .list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     line-height: 19.12px;
+    list-style: none;
     font-size: 14px;
-    list-style-type: none;
-    display: inline;
-    padding: 39px;
+    width: 322px;
+    height: 19px;
+
+    li {
+      cursor: pointer;
+    }
   }
 
   .nav-btns {

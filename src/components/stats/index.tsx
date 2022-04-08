@@ -5,13 +5,11 @@ import Image from 'next/image'
 import { RiUserFill } from 'react-icons/ri'
 import { AiFillStar } from 'react-icons/ai'
 
-import scribble from '../../assets/images/stats-images/scribble.png'
-import Layout from '../layout/styles'
+import orangeScribble from '../../assets/images/stats-images/scribble.png'
 
 const Stats = () => {
   return (
     <Container>
-      <Layout>
         <div className="stats-container">
           <div className="stats-phrase">
             <p>We speak with our powerfull statistics</p>
@@ -39,14 +37,15 @@ const Stats = () => {
                 <h5>Transactions</h5>
               </div>
             </div>
-            <Image
-              src={scribble}
-              alt="Rabisco stats container"
-              quality={100}
-            />
           </div>
+          <div className="orange-scribble">
+              <Image
+                src={orangeScribble}
+                alt="Rabisco stats container"
+                quality={100}
+              />
+            </div>
         </div>
-      </Layout>
     </Container>
   )
 }

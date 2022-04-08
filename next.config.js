@@ -15,8 +15,12 @@ module.exports = withImages({
   esModule: true
 })
 
-module.exports = {
-  experimental: { images: { layoutRaw: true } }
-}
+module.exports = ({
+  experimental: {
+    images: {
+      layoutRaw: true
+    }
+  }
+})
 
 module.exports = nextConfig

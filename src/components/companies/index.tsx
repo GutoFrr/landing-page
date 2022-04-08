@@ -10,12 +10,10 @@ import samsungLogo from '../../assets/images/companies-brands/samsung.png'
 import mondayLogo from '../../assets/images/companies-brands/monday.png'
 import segmentLogo from '../../assets/images/companies-brands/segment.png'
 import protonetLogo from '../../assets/images/companies-brands/protonet.png'
-import Layout from '../layout/styles'
 
 const Companies = () => {
   return (
     <Container>
-      <Layout>
         <h4>Over 32k+ software businesses growing with AR Shakir.</h4>
         <div className="companies-brands">
           <div>
@@ -56,7 +54,6 @@ const Companies = () => {
             />
           </div>
         </div>
-      </Layout>
     </Container>
   )
 }

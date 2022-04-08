@@ -2,15 +2,16 @@ import styled from 'styled-components'
 
 const Container = styled.div`
   height: 935px;
+  position: relative;
 
   .testimonials-section {
-    padding: 147px 0 153px 103px;
+    padding: 147px 0 153px 0;
   }
 
   .testimonials-title {
     width: 570px;
     height: 161px;
-    margin-bottom: 44px;
+    margin-bottom: 60px;
 
     h1 {
       width: 426px;
@@ -36,30 +37,82 @@ const Container = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     column-gap: 41px;
   }
 
   .girl-testimonial {
+    position: relative;
     display: flex;
     align-items: center;
-    width: 750px;
-    height: 400px;
-    background: #FFFFFF;
-    border: 1px solid #CFCFCF;
+    width: 48%;
+    height: 370px;
+    background: #ffffff;
+    border: 1px solid #cfcfcf;
     box-sizing: border-box;
     border-radius: 10px;
 
-    .girl-text {
+    .girl-quote-icon {
+      position: absolute;
+      top: -30px;
+      left: 35px;
+    }
+  }
+
+  .girl-text {
+    flex-direction: column;
+    padding: 80px 0px 80px 40px;
+    width: 90%;
+    margin-right: auto;
+
+    h6 {
+      font-weight: 600;
+      font-size: 1.3rem;
+      line-height: 36px;
+      letter-spacing: -0.02em;
+      margin-bottom: 41px;
+    }
+
+    p {
+      width: 249px;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 22px;
+      letter-spacing: -0.02em;
+    }
+  }
+
+  .girl-image {
+    width: 60%;
+    margin: 35px 25px 25px 25px;
+  }
+
+  .guy-testimonial {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 48%;
+    height: 370px;
+    background: #ffffff;
+    border: 1px solid #cfcfcf;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    .guy-quote-icon {
+      position: absolute;
+      top: -30px;
+      left: 35px;
+    }
+
+    .guy-text {
       flex-direction: column;
-      width: 368px;
-      padding: 77px 0px 80px 40px;
+      padding: 80px 0px 80px 40px;
+      width: 90%;
       margin-right: auto;
 
       h6 {
-        width: 368px;
-        height: 180px;
         font-weight: 600;
-        font-size: 25px;
+        font-size: 1.3rem;
         line-height: 36px;
         letter-spacing: -0.02em;
         margin-bottom: 41px;
@@ -74,6 +127,17 @@ const Container = styled.div`
         letter-spacing: -0.02em;
       }
     }
+
+    .guy-image {
+      width: 60%;
+      margin: 35px 25px 25px 25px;
+    }
+  }
+
+  .scribble {
+    position: absolute;
+    top: 178px;
+    right: 360px;
   }
 `
 

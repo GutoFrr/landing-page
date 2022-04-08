@@ -1,31 +1,64 @@
 import styled from 'styled-components'
 
 const Container = styled.div`
-
   .section-heading {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 71px;
+
+    .quote-card {
+      background-color: rgba(196, 196, 196, 0.3);
+      width: 402px;
+      height: 177px;
+      border-radius: 20px;
+      position: relative;
+    }
+
+    .quote-icon {
+      position: absolute;
+      top: -20px;
+      left: 30px;
+    }
+
+    .quote-text {
+      padding: 38px 34px 34px 34px;
+
+      p {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: -0.02em;
+        margin-bottom: 18px;
+      }
+
+      h6 {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: -0.02em;
+      }
+    }
   }
 
   .tracking-title {
     max-width: 646px;
     height: 209px;
-  }
 
-  .tracking-title > h1 {
-    width: 520px;
-    height: 132px;
-    margin-bottom: 19px;
-    font-weight: 800;
-    font-size: 56px;
-    line-height: 66px;
-    letter-spacing: -0.03em;
-  }
+    h1 {
+      width: 520px;
+      height: 132px;
+      margin-bottom: 19px;
+      font-weight: 800;
+      font-size: 56px;
+      line-height: 66px;
+      letter-spacing: -0.03em;
+    }
 
-  .tracking-title > p {
-    width: 449px;
-    height: 58px;
+    p {
+      width: 449px;
+      height: 58px;
+    }
   }
 
   .folder-cards {
@@ -47,7 +80,7 @@ const Container = styled.div`
     border: 1px solid #dbe4e9;
     box-sizing: border-box;
     border-radius: 20px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
   }
 
   .folder-card-number {
@@ -85,7 +118,7 @@ const Container = styled.div`
     margin-bottom: 83px;
 
     h6 {
-      color: #3734A9;
+      color: #3734a9;
       font-weight: 700;
       font-size: 14px;
       line-height: 19px;
@@ -106,7 +139,7 @@ const Container = styled.div`
     p {
       width: 446px;
       height: 60px;
-      color: #64607D;
+      color: #64607d;
       font-weight: 500;
       font-size: 18px;
       line-height: 30px;
@@ -116,12 +149,12 @@ const Container = styled.div`
 
     hr {
       width: 490px;
-      border: 1px solid #C4C4C4;
+      border: 1px solid #c4c4c4;
       margin-bottom: 27px;
     }
 
     h5 {
-      color: #64607D;
+      color: #64607d;
       font-weight: 500;
       font-size: 19px;
       line-height: 30px;
@@ -132,7 +165,7 @@ const Container = styled.div`
     }
 
     .check-icon {
-      color: #FDBC64;
+      color: #fdbc64;
       width: 24px;
       height: 24px;
       margin-right: 11px;
@@ -147,7 +180,7 @@ const Container = styled.div`
     margin-bottom: 96px;
 
     h6 {
-      color: #3734A9;
+      color: #3734a9;
       font-weight: 700;
       font-size: 14px;
       line-height: 19px;
@@ -166,7 +199,7 @@ const Container = styled.div`
     }
 
     p {
-      color: #64607D;
+      color: #64607d;
       font-weight: 500;
       font-size: 18px;
       line-height: 30px;
@@ -179,6 +212,48 @@ const Container = styled.div`
 
   .insurance-description-bottom {
     padding-top: 130px;
+
+    .quote-card {
+      background-color: rgba(196, 196, 196, 0.3);
+      width: 479px;
+      height: 152px;
+      border-radius: 20px;
+      position: relative;
+    }
+
+    .quote-icon {
+      position: absolute;
+      top: -20px;
+      left: 30px;
+    }
+
+    .quote-text {
+      padding: 38px 34px 34px 34px;
+
+      p {
+        width: 426px;
+        height: 44px;
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: -0.02em;
+        color: #000000;
+        margin-bottom: 14px;
+      }
+
+      h6 {
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: -0.02em;
+        color: #000000;
+        text-transform: capitalize;
+      }
+    }
   }
 `
 

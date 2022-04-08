@@ -76,6 +76,10 @@ const Container = styled.div`
       line-height: 24px;
       color: #181433;
     }
+
+    li {
+      cursor: pointer;
+    }
   }
 
   .resources-list {
@@ -102,6 +106,10 @@ const Container = styled.div`
       font-size: 16px;
       line-height: 24px;
       color: #181433;
+    }
+
+    li {
+      cursor: pointer;
     }
   }
 
@@ -144,20 +152,16 @@ const Container = styled.div`
       letter-spacing: -0.02em;
       color: #ffffff;
       border: none;
+      cursor: pointer;
     }
-  }
-
-  hr {
-    border: 1px solid #e5e5ea;
-    margin-bottom: 40px;
-    width: 1440px;
-    max-width: 1440px;
   }
 
   .copyright {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+
 
     h6 {
       font-weight: 500;
@@ -166,7 +170,13 @@ const Container = styled.div`
       text-align: center;
       letter-spacing: -0.02em;
       color: #181433;
-      margin-bottom: 58px;
+    }
+
+    hr {
+      border: 1px solid #e5e5ea;
+      margin-bottom: 40px;
+      width: 1440px;
+      max-width: 1440px;
     }
   }
 `

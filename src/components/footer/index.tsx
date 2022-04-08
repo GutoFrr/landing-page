@@ -56,9 +56,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <hr />
         <div className="copyright">
-          <h6>Copyright @ AR Shakir 2022. All Rights Reserved.</h6>
+          <hr />
+          <h6>Copyright @ JVM 2022. All Rights Reserved.</h6>
         </div>
       </Layout>
     </Container>

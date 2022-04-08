@@ -7,6 +7,7 @@ const Container = styled.div`
   .stats-container {
     display: flex;
     align-items: center;
+    position: relative;
 
     hr {
       transform: rotate(0deg);
@@ -17,6 +18,8 @@ const Container = styled.div`
   }
 
   .stats-phrase {
+    display: flex;
+    align-items: center;
     width: 143px;
     height: 93px;
     font-weight: 400;
@@ -48,9 +51,9 @@ const Container = styled.div`
 
   .stats {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 1400px;
   }
 
   .icon { 
@@ -89,6 +92,24 @@ const Container = styled.div`
     .transactions {
       width: 210px;
       height: 31px;
+    }
+  }
+
+  .orange-scribble {
+    position: absolute;
+    right: 0.00001%;
+    top: 20px;
+  }
+
+  @media (max-width: 1600px) {
+    .stats {
+      width: 1200px;
+    }
+  }
+
+  @media (max-width: 1440px) {
+    .stats {
+      width: 896px;
     }
   }
 `

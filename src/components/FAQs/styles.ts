@@ -3,10 +3,10 @@ import styled from 'styled-components'
 const Container = styled.div`
   height: 735px;
   margin-bottom: 150px;
-  background-color: #FAFBFF;
+  position: relative;
 
   .faqs-container {
-
+    
     h1 {
       width: 544px;
       height: 152px;
@@ -137,6 +137,18 @@ const Container = styled.div`
         padding: 22px 0;
       }
     }
+  }
+
+  .blue-spiral {
+    position: absolute;
+    top: 87px;
+    left: 0.000001%;
+  }
+
+  .orange-smudge {
+    position: absolute;
+    top: 0;
+    right: 0.000001%;
   }
 `
 
