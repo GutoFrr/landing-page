@@ -3,7 +3,6 @@ import React from 'react'
 import Image from 'next/image'
 import Container from './styles'
 import Navbar from '../navbar/index'
-import Link from 'next/link'
 import { BsFillCheckCircleFill } from 'react-icons/bs'
 import Layout from '../layout/styles'
 
@@ -36,7 +35,7 @@ const Header = () => {
             <div className="play-icon">
               <Image src={playButton} quality={100} />
             </div>
-            <Link href="_blank">See How It Works</Link>
+            <p>See How It Works</p>
           </div>
           <div className="benefits">
             <div>

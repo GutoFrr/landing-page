@@ -38,6 +38,15 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     margin-bottom: 56px;
+    
+    p {
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 30px;
+      letter-spacing: -0.02em;
+      color: #3734A9;
+      cursor: pointer;
+    }
   }
 
   .get-started-btn {

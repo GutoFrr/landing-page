@@ -28,7 +28,7 @@ const Home: NextPage = () => {
         <Testimonials />
         <Stats />
         <RecentBlogs />
-        <FAQs />
+        <FAQs title={''} open={false} />
         <CTA />
         <Footer />
       </Container>

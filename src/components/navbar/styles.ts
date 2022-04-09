@@ -20,15 +20,9 @@ const Container = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    line-height: 19.12px;
-    list-style: none;
-    font-size: 14px;
+    list-style-type: none;
     width: 322px;
     height: 19px;
-
-    li {
-      cursor: pointer;
-    }
   }
 
   .nav-btns {
