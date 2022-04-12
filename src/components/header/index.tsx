@@ -3,10 +3,9 @@ import React from 'react'
 import Image from 'next/image'
 import Container from './styles'
 import Navbar from '../navbar/index'
-import { BsFillCheckCircleFill } from 'react-icons/bs'
+import { BsFillCheckCircleFill, BsFillPlayCircleFill } from 'react-icons/bs'
 import Layout from '../layout/styles'
 
-import playButton from '../../../public/header-images/play-button.png'
 import blackHand from '../../../public/header-images/black-hand.png'
 import whiteHand from '../../../public/header-images/white-hand.png'
 import elipse from '../../../public/header-images/elipse.png'
@@ -32,18 +31,18 @@ const Header = () => {
           </div>
           <div className="start">
             <button className="get-started-btn">Get Started</button>
-            <div className="play-icon">
-              <Image src={playButton} quality={100} />
+            <div >
+              <BsFillPlayCircleFill className="play-icon"/>
             </div>
             <p>See How It Works</p>
           </div>
           <div className="benefits">
             <div>
-              <BsFillCheckCircleFill size={18} />
+              <BsFillCheckCircleFill size={18} className="check-icon" />
               <p className="benefits-txt">Free Register</p>
             </div>
             <div>
-              <BsFillCheckCircleFill size={18} />
+              <BsFillCheckCircleFill size={18} className="check-icon" />
               <p className="benefits-txt">Great Service</p>
             </div>
           </div>

@@ -16,6 +16,15 @@ const Container = styled.div`
   .product-button {
     cursor: pointer;
     width: fit-content;
+    transition: all 0.3s;
+
+    :hover {
+      color: #1a1a1a;
+    }
+
+    :active {
+      color: #262626;
+    }
   }
 
   .menu {
@@ -35,13 +44,22 @@ const Container = styled.div`
   button {
     border: none;
     background: transparent;
-    font-family: 'Manrope';
+    font-family: "Manrope";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
     color: #000000;
     cursor: pointer;
+    transition: all 0.3s;
+
+    :hover {
+      color: #1a1a1a;
+    }
+
+    :active {
+      color: #262626;
+    }
   }
 
   ul {
@@ -54,7 +72,7 @@ const Container = styled.div`
   li {
     text-transform: capitalize;
     padding: 6px;
-    margin-bottom: 2px; 
+    margin-bottom: 2px;
     font-size: 13px;
     border-radius: 10px;
   }

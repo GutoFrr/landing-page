@@ -54,8 +54,8 @@ const Container = styled.div`
     border-radius: 47px;
     padding: 15px 38px;
     color: white;
-    border: none;
-    font-family: Manrope;
+    border: 1px solid #3734a9;
+    font-family: 'Manrope';
     font-size: 16px;
     font-weight: 500;
     line-height: 30px;
@@ -63,16 +63,40 @@ const Container = styled.div`
     text-align: center;
     margin-right: 50px;
     cursor: pointer;
+    transition: all 0.3s;
+
+    :hover {
+      background: #3d3abd;
+    }
+
+    :active {
+      transition: 0.1s;
+      background: #4c49c7;
+    }
   }
 
   .play-icon {
     margin-right: 11px;
+    width: 60px;
+    height: 60px;
+    color: #22d497;
+    background: white;
+    border-radius: 60%;
     cursor: pointer;
+    transition: all 0.3s;
+
+    :hover {
+      color: #31dea3;
+    }
+
+    :active {
+      transition: 0.1s;
+      color: #47e2ad;
+    }
   }
 
   .benefits {
     display: flex;
-    color: #3734a9;
   }
 
   .benefits-txt {
@@ -81,6 +105,14 @@ const Container = styled.div`
     margin-right: 24px;
     display: inline;
     vertical-align: 3px;
+  }
+
+  .check-icon {
+    color: #3734a9;
+    background: white;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
   }
 
   .black-hand {

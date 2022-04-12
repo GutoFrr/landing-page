@@ -14,6 +14,7 @@ const Container = styled.div`
   h3 {
     font-weight: 700;
     font-size: 20px;
+    cursor: pointer;
   }
 
   .list {
@@ -25,27 +26,48 @@ const Container = styled.div`
     height: 19px;
   }
 
-  .nav-btns {
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 500;
-  }
-
   .sign-in-btn {
     border: none;
     background-color: transparent;
-    margin-right: 50px;
+    margin-right: 10px;
+    padding: 18px 32px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
     cursor: pointer;
+    transition: all 0.3s;
+
+    :hover {
+      background: #726bc8;
+      color: white;
+    }
+
+    :active {
+      background: #6159c1;
+      color: white;
+      transition: 0.1s;
+    }
   }
 
   .start-btn {
     border: none;
     color: white;
     background-color: #4f46ba;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
     padding: 18px 32px;
     cursor: pointer;
+    transition: all 0.3s;
+
+    :hover {
+      background: #6159c1;
+    }
+
+    :active {
+      transition: 0.1s;
+      background: #726bc8;
+    }
   }
 `;
 

@@ -14,10 +14,10 @@ const Footer = () => {
             <h6>Ar Shakir</h6>
             <p>Finance helps companies manage payments easily.</p>
             <div className="icons">
-              <FaLinkedinIn />
-              <FaFacebookMessenger />
-              <FaTwitter />
-              <SiTwoo />
+              <FaLinkedinIn className="icon" />
+              <FaFacebookMessenger className="icon" />
+              <FaTwitter className="icon" />
+              <SiTwoo className="icon" />
             </div>
           </div>
           <div className="footer-menu">

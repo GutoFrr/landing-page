@@ -41,6 +41,19 @@ const Container = styled.div`
       column-gap: 16px;
       color: #3734a9;
     }
+
+    .icon {
+      cursor: pointer;
+      transition: all 0.3s;
+
+      :hover {
+        color: #3d3abd;
+      }
+
+      :active {
+        color: #4c49c7;
+      }
+    }
   }
 
   .footer-menu {
@@ -140,6 +153,11 @@ const Container = styled.div`
       line-height: 26px;
       letter-spacing: -0.02em;
       padding: 15px;
+      transition: 0.3s all;
+
+      :focus {
+        background: #d5d5ff;
+      }
     }
 
     .email-button {
@@ -153,6 +171,16 @@ const Container = styled.div`
       color: #ffffff;
       border: none;
       cursor: pointer;
+      transition: all 0.3s;
+
+      :hover {
+        background: #3d3abd;
+      }
+
+      :active {
+        transition: 0.1s;
+        background: #4c49c7;
+      }
     }
   }
 
@@ -161,7 +189,6 @@ const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 
     h6 {
       font-weight: 500;

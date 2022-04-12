@@ -63,12 +63,14 @@ const Container = styled.div`
     }
 
     .list-text {
+      cursor: default;
       opacity: 0;
     }
 
     .list-text.active {
       opacity: 1;
       visibility: visible;
+      cursor: auto;
     }
 
     .icon {
@@ -132,6 +134,16 @@ const Container = styled.div`
       background: #ff7f5c;
       border: none;
       cursor: pointer;
+      transition: all 0.3s;
+
+      :hover {
+        background: #ff9376;
+      }
+
+      :active {
+        transition: 0.1s;
+        background: #ffa78f;
+      }
       
       p {
         font-style: normal;

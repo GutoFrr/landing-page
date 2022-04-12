@@ -169,6 +169,8 @@ const Container = styled.div`
       width: 24px;
       height: 24px;
       margin-right: 11px;
+      background: white;
+      border-radius: 50%;
     }
   }
 
